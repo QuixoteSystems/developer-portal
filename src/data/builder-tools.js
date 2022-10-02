@@ -761,14 +761,39 @@ export const Showcases = [
     website: "https://github.com/gitmachtl/cardano-related-stuff/tree/master/cardano-signer",
     getstarted: null,
     tags: ["operatortool", "cli"],
+  {  
   },
-  {
+
     title: "Cexplorer",
     description: "Rich featured blockchain explorer with support of all testnet instances and an API.",
     preview: require("./builder-tools/cexplorer.png"),
     website: "https://cexplorer.io",
     getstarted: null,
     tags: ["operatortool", "api"],
+  },
+
+    title: "Raw Cardano Explorer",
+    description: "This is a Cardano Blockchain Explorer to show data in a simple and fast way.",
+    preview: require("./builder-tools/rawcardano.png"),
+    website: "https://rawcardano.app/",
+    getstarted: null,
+    tags: ["explorer", "api", "http", "json"],
+  },
+
+    title: "Koios Python",
+    description: "Koios Python wrapper which allow interacting with all information and parameters stored on the Cardano blockchain.",
+    preview: require("./builder-tools/koios-python.png"),
+    website: "https://github.com/cardano-community/koios-python",
+    getstarted: null,
+    tags: ["python", "api", "sdk"],
+  },
+
+    title: "Cardano Leader Slot",
+    description: "Lightweight and Portable Scheduled Blocks Checker for Next, Current and Previous Epochs.",
+    preview: require("./builder-tools/leader-slot.png"),
+    website: "https://github.com/cardano-community/koios-python",
+    getstarted: null,
+    tags: ["python", "script", "operator tool", "cli"],
   }
 ];
 
